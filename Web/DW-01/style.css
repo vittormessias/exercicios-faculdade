@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+
+  --fonte-padrao: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif';
+}
+
+body{
+  margin: 0;
+}
+
+header {
+  padding: 2px;
+  padding-top: 15px;
+  margin: 0;
+}
+
+main { 
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    height: 100%;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.712);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main > h1{
+  font-size: 1.5em;
+  font-family: var(--fonte-padrao);
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+main > h2{
+  font-size: 1em;
+  font-family: var(--fonte-padrao);
+  font-weight: bold;
+  
+}
+
+main > p{
+  margin: 0px 8px;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+picture > img{
+  max-width: 200px;
+  max-height: 150px;
+  display: block;
+  margin: auto;
+  
+}
+
+footer{
+  text-align: center;
+  font-size: 0.8em;
+  padding: 5px;
+  margin: 0;
+}
+
+p > a{
+  text-decoration: none;
+}
+
+p > a:hover{
+  background-color: yellow;
+}
+
+.ImgAluno{
+  margin-top: 50px;
+}
+
+.NomeAluno{
+  margin-top: 8px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.Biografia{
+  margin-top: 8px;
+  text-align: justify;
+}
+
+button > a{
+  font-family: var(--fonte-padrao);
+  font-size: 11px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+}
+
+button > a:hover{
+  background-color: yellow;
+}
+
+button{
+  margin-left: 47%;
+  margin-top: 50px;
+  border-radius: 5px;
+}
