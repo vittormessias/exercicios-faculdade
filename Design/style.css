@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+*{
+
+margin: 0;
+padding: 0;
+
+--fonte-padrao: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif';
+}
+
+:root{
+
+  --cor0:  #008EE6;
+  --cor01: #004f807c;
+  --cor02: #009DFF;
+  --cor03: #0076BF;
+  --cor04: #082174;
+
+}
+
+body{
+    margin: 0;
+    font-style: var(--fonte-padrao);
+    background-color: var(--cor03);
+  }
+  
+header {
+    padding: 2px;
+    padding-top: 15px;
+    min-height: 100px;
+    margin: 0;
+    background-image: linear-gradient(to top, #1A23C9, var(--cor02));
+  }
+
+header > h1{
+    color: white;
+    font-family: var(--fonte-padrao);
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    
+
+}
+
+header > p{
+    text-align: center; 
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    color: white;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+}
+
+
+
+main { 
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    height: 100%;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: var(--cor02);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1{
+  color: var(--cor04);
+  font-size: 1.5em;
+  font-family: var(--fonte-padrao);
+  font-weight: bold;
+  text-align: center;
+}
+
+main h2{
+  color: var(--cor04);
+  font-size: 1em;
+  font-family: var(--fonte-padrao);
+  font-weight: bold;
+  text-align: center;
+  text-indent: 8px;
+  padding-top: 10px;
+}
+
+main p {
+  margin: 15px 0px;
+  text-align: justify;
+  text-indent: 30px;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+main img{
+  width: 100%;
+  max-width: 350px;
+  padding-top: 30px;
+  padding-right: 50px;
+}
+
+picture > img{
+  max-width: 500px;
+  max-height: 500px;
+  display: block;
+  margin: auto;
+}
+
+main > div{
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.288);
+    background-color: var(--cor01);
+    height: 30px;
+    width: 240px;
+    margin-left: 410px;
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+
+main .tituloCaixa{
+    text-align: center;
+    font-weight: bold;
+}
+
+main .caixa1{
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.288);
+    background-color: var(--cor01);
+    height: 45px;
+    width: 245px;
+    margin-left: 410px;
+    padding-top: 10px;
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    margin: auto; 
+}
+
+main .caixa2{
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.288);
+    background-color: var(--cor01);
+    height: 110px;
+    width: 240px;
+    margin-left: 410px;
+    font-family: var(--fonte-padrao);
+    font-weight: bold; 
+    margin: auto; 
+}
+
+.TituloFim{
+    text-align: justify;
+    line-height: 3.5em;
+    font-weight: bold;
+}
+
+footer{
+    background-color: var(--cor5);
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+    margin: 0;
+}
