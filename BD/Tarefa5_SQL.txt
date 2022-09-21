@@ -1,3 +1,4 @@
+--Criar a tabelaProdutos--
 create table Produtos(
 Cod_Produto int,
 Descricao varchar(20),
@@ -7,6 +8,7 @@ cor varchar(20),
 constraint pk_cod primary key(Cod_Produto)
 );
 
+--Inserir 10 registros--
 insert into Produtos values
 (1,'Coca Cola', 8.00, 20, 'vermelha'),
 (2,'Dolly', 3.50, 18, 'verde'),
@@ -19,16 +21,42 @@ insert into Produtos values
 (9,'Coca-Cola Zero', 3.50, 18, 'vermelha'),
 (10,'Sprite Lemon Fresh', 3.50, 18, 'verde');
 
+--Quantos produtos temos no cadastro?--
 select count(*) as 'Qtde' from Produtos;
+
+--Selecionar os produtos com preço entre 10 e 50 reais.--
 select * from Produtos where Preco >= 10 and Preco <=50;
+
+--Qual o valor do produto mais caro?--
 select * from Produtos where Preco > 50;
+
+--Qual o valor do produto mais barato?--
 select * from Produtos where Preco < 10;
+
+--Qual a média de preços?--
 select avg(Preco) as 'média' from Produtos;
+
+--Quantos produtos vermelhos temos no cadastro?--
 select * from Produtos where cor = 'vermelha';
+
+--Atualizar o preço dos produtos com preço abaixo de 10.00 acrescentando 15%--
 update Produtos set Preco= Preco* 0.15 where Preco < 10;
+
+--Atualizar o preço dos produtos com preço acima de 500.00 com um desconto de 5%--
 update Produtos set Preco= Preco* 0.05 where Preco > 500;
+
+--Excluir todos os produtos com qtde abaixo de 5--
 delete from Produtos where Qtde < 5;
+
+--Listar  as cores sem duplicidade--
 select distinct cor from Produtos;
+
+--Selecionar todos os produtos de cor Azul, vermelho, branco e preto.--
 select * from Produtos where cor in ('azul', 'vermelha', 'branco', 'preto');
+
+--Qual o somatório das quantidades?--
 select sum(Qtde)as 'total' from Produtos;
+
+--Listar todos os produtos que tem descrição iniciado em ‘A’.--
 select * from Produtos where Descricao like 'A%';
+
