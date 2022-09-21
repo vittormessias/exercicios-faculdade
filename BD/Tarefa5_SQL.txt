@@ -3,32 +3,32 @@ Cod_Produto int,
 Descricao varchar(20),
 Preco numeric(9,2),
 Qtde int,
-cor char(20),
+cor varchar(20),
 constraint pk_cod primary key(Cod_Produto)
 );
 
 insert into Produtos values
-(1,'Coca Cola', 8.00, 20, vermelha),
-(2,'Dolly', 3.50, 18, verde),
-(3,'Guaraviton', 2.45, 18, amarelo),
-(4,'Fanta Uva', 3.50, 18, roxa),
-(5,'Guaraná', 3.50, 18, verde),
-(6,'Sprite', 3.50, 18, verde),
-(7,'Fanta Laranja', 3.50, 18, laranja),
-(8,'Fanta Guaraná', 3.50, 18, verde),
-(9,'Coca-Cola Zero', 3.50, 18, vermelha),
-(10,'Sprite Lemon Fresh', 3.50, 18, verde);
+(1,'Coca Cola', 8.00, 20, 'vermelha'),
+(2,'Dolly', 3.50, 18, 'verde'),
+(3,'Guaraviton', 2.45, 18, 'amarelo'),
+(4,'Fanta Uva', 3.50, 18, 'roxa'),
+(5,'Guaraná', 3.50, 18, 'verde'),
+(6,'Sprite', 3.50, 18, 'verde'),
+(7,'Fanta Laranja', 3.50, 18, 'laranja'),
+(8,'Fanta Guaraná', 3.50, 18, 'verde'),
+(9,'Coca-Cola Zero', 3.50, 18, 'vermelha'),
+(10,'Sprite Lemon Fresh', 3.50, 18, 'verde');
 
 select count(*) as 'Qtde' from Produtos;
 select * from Produtos where Preco >= 10 and Preco <=50;
 select * from Produtos where Preco > 50;
 select * from Produtos where Preco < 10;
 select avg(Preco) as 'média' from Produtos;
-select * from Produtos where cor in 'vermelha';
+select * from Produtos where cor = 'vermelha';
 update Produtos set Preco= Preco* 0.15 where Preco < 10;
 update Produtos set Preco= Preco* 0.05 where Preco > 500;
 delete from Produtos where Qtde < 5;
 select distinct cor from Produtos;
-select * from Produtos where cor in 'azul', 'vermelha', 'branco', 'preto';
-select sum(Qtde)as 'total' from exemplo;
-select * from Produtos where nome like 'A%';
+select * from Produtos where cor in ('azul', 'vermelha', 'branco', 'preto');
+select sum(Qtde)as 'total' from Produtos;
+select * from Produtos where Descricao like 'A%';
