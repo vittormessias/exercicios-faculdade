@@ -1,0 +1,71 @@
+O que é um Sistema Operacional?
+-um Sistema Operacional  é um programa ou um conjunto de programas cuja função é gerenciar os recursos do sistema (definir qual programa recebe atenção do processador, gerenciar memória, criar um sistema de arquivos, etc.), fornecendo uma interface entre o computador e o usuário. controlando e orquestrando todo o processo computacional.
+
+O que compoem um OS? 
+- Usuarios > Aplicações > Hardware = CPU, I/O e memoria principal
+
+Qual é a visão do Usuario do computador?
+- Usuarios > Aplicações > OS > Hardware = CPU, I/O e memoria principal
+
+O que compoem uma maquina de camadas?
+são 6 - Aplicações, utilitários, OS, linguagem de maquina, microprogramação e circuitos eletrônicos
+
+Quais são os tipos de OS existentes?
+- Monotarefa(execução de uma tarefa), multitarefa(execução de varias tarefas no mesmo intervalo de tempo) e multiplos processadores( vários programas podem ser executados ao mesmo tempo)
+
+O que compoem um OS monotarefa e um OS multitarefa?
+- CPU, memoria principal, dipositivos E/S.
+
+Quantos usuarios podemos ter em OS monotarefa e em OS multitarefa?
+- OS mono é o mesmo que Mono Usuário.
+- OS multi é o mesmo que Mono(um) ou Multi(mais) usuários.
+
+Como é o tipo de sistemas OS multitarefa?
+- Sitemas Batch(um lote de tarefas enfileiradas), sitema de tempo compartilhado(cada usuario utiliza uma fatia do sistema) e sistema de tempo real(serve para realizar soluções atraves de estimulos(flags) em tempo real atendendo a interrupções).
+
+O que é um sistema fortemente acoplado e fracamente acoplado?
+- fortemente utilizam um único espaço de memória e compartilham informações por meio da memória comum compartilhada.
+- fracamente utilizam memória distribuída em que cada processador tem sua própria memória e canais de E / S.
+
+O que é um CPU?
+- é um hardware principal que realiza o processamento, execução de tarefas e cálculos aritméticos.
+
+O que é um processamento?
+- Processamento consiste em transformar algum resultado que tenha em alguma finalidade prática.
+
+O que é um CPU-Bound (CPU-B)?
+- É um processo que utiliza muita CPU. O seu tempo de execução é definido principalmente pelo tempo dos ciclos(clocks).
+
+O que é IO-Bound(ligado à E/S)?
+- Um processo quando passa a maior parte do tempo no estado de espera, pois realiza um elevado número de operações de E/S.
+- resumo: Se todos os processos forem cpu-bound, o processador será o gargalo do sistema. Se todos forem i/o-bound, o processador ficará parado enquanto todos os processos tentam acessar os periféricos.
+
+O que são Thread e para que servem?
+- os threads definem como um processador funciona, executando instruções em linha de trabalho ou em linhas de trabalhos se forem multithread.
+
+O que são nucleos na CPU?
+- os núcleos são como processadores individuais. Cada um desses corresponde a uma thread, ou linha de execução.
+
+O que são buffers?
+- são memorias fisicas temporarias para a movimentação de dados.
+
+O que são registradores?
+- os registradores são circuitos digitais utilizados na execução de programas, disponibilizando um local para armazenar dados. Pequena memória
+temporária dentro do processador.
+
+O que é um clock?
+- frequência de ciclos que indicam a velocidade de instruções que podem ser executadas por segundo.
+
+O que é uma memoria principal?
+- memoria principal é a ram e é responsável por armazenar dados temporariamente.
+
+O que é uma memoria cache?
+- é uma memória de acesso rápido com o objetivo de reduzir o tempo médio de acesso aos dados armazenados na memória.
+
+O que é um tradutor, montador, compilador e linkador?
+- Os tradutores são programas que convertem uma linguagem para uma outra linguagem.
+- O montador traduz o código assembly para código de máquina (código objeto).
+- O compilador traduz o código-fonte e o converte para um código de linguagem de máquina).
+- O linkador produz código de máquina (código executável) a partir da ligação de um ou mais códigos objetos (bibliotecas, rotinas).
+ 
+
