@@ -31,7 +31,7 @@ O que é um CPU?
 - é um hardware principal que realiza o processamento, execução de tarefas e cálculos aritméticos.
 
 O que é um processamento?
-- Processamento consiste em transformar algum resultado que tenha em alguma finalidade prática.
+- Processamento consiste em transformar algum resultado que tenha alguma finalidade prática.
 
 O que é um CPU-Bound (CPU-B)?
 - É um processo que utiliza muita CPU. O seu tempo de execução é definido principalmente pelo tempo dos ciclos(clocks).
@@ -41,10 +41,10 @@ O que é IO-Bound(ligado à E/S)?
 - resumo: Se todos os processos forem cpu-bound, o processador será o gargalo do sistema. Se todos forem i/o-bound, o processador ficará parado enquanto todos os processos tentam acessar os periféricos.
 
 O que são Thread e para que servem?
-- os threads definem como um processador funciona, executando instruções em linha de trabalho ou em linhas de trabalhos se forem multithread.
+- as Threads são instruções em linha de execução (tarefas).
 
 O que são nucleos na CPU?
-- os núcleos são como processadores individuais. Cada um desses corresponde a uma thread, ou linha de execução.
+- os núcleos são processadores individuais. Cada um desses corresponde a uma ou mais threads (linha de execução).
 
 O que são buffers?
 - são memorias fisicas temporarias para a movimentação de dados.

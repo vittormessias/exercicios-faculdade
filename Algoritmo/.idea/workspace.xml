@@ -2,21 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df104a50-5779-42f2-a09e-1cd82bfe02a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ProjetoPythonArray/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjetoPythonArray/ArrayBidimensional.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoPythonarrayUnidimensional/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoPythonArray/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoPythonarrayUnidimensional/.idea/ProjetoPythonarrayUnidimensional.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoPythonArray/.idea/ProjetoPythonarrayUnidimensional.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoPythonarrayUnidimensional/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoPythonarrayUnidimensional/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoPythonArray/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoPythonarrayUnidimensional/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoPythonArray/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoPythonarrayUnidimensional/ex01.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoPythonArray/ArrayUnidimensional.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoPythonarrayUnidimensional/ex02.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoPythonarrayUnidimensional/main.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjetoPython/ex09.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjetoPython/ex10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjetoPython/ex11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjetoPython/ex12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetoJava/build/built-jar.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoJava/build/built-jar.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS e Redes/anotações slide 1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../OS e Redes/anotações slide 1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -25,19 +29,21 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2F8ovoCeieJxm1W9YFMggdTK1HJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.ArrayBidimensional (1)">
+}</component>
+  <component name="RunManager" selected="Python.ex12">
     <configuration name="ArrayBidimensional (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algoritmo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -59,7 +65,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ArrayBidimensional" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex09" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algoritmo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,11 +73,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjetoPythonarrayUnidimensional" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjetoPython" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\vitor\Documents\GitHub\exercicios-faculdade\Algoritmo\ProjetoPythonarrayUnidimensional\ArrayBidimensional.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjetoPython/ex09.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ArrayUnidimensional" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algoritmo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,11 +94,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjetoPythonarrayUnidimensional" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjetoPython" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\vitor\Documents\GitHub\exercicios-faculdade\Algoritmo\ProjetoPythonarrayUnidimensional\ArrayUnidimensional.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjetoPython/ex10.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algoritmo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjetoPython" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjetoPython/ex11.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algoritmo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjetoPython" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjetoPython/ex12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,9 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex12" />
+        <item itemvalue="Python.ex11" />
+        <item itemvalue="Python.ex10" />
+        <item itemvalue="Python.ex09" />
         <item itemvalue="Python.ArrayBidimensional (1)" />
-        <item itemvalue="Python.ArrayBidimensional" />
-        <item itemvalue="Python.ArrayUnidimensional" />
       </list>
     </recent_temporary>
   </component>
