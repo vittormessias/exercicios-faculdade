@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df104a50-5779-42f2-a09e-1cd82bfe02a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ProjetoPython/ex09.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjetoPython/ex10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjetoPython/ex11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjetoPython/ex12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjetoPython/ex029.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjetoPython/ex030.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjetoPython/ex031.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjetoPython/ex032.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoJava/build/built-jar.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoJava/build/built-jar.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OS e Redes/anotações slide 1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../OS e Redes/anotações slide 1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,29 +41,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.ex12">
-    <configuration name="ArrayBidimensional (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algoritmo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjetoPythonArray" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjetoPythonArray/ArrayBidimensional.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex09" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ex030">
+    <configuration name="ex029" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algoritmo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,7 +54,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjetoPython/ex09.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjetoPython/ex029.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex030" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algoritmo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjetoPython" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\vitor\Documents\GitHub\exercicios-faculdade\Algoritmo\ProjetoPython\ex030.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex030" />
+        <item itemvalue="Python.ex029" />
         <item itemvalue="Python.ex12" />
         <item itemvalue="Python.ex11" />
         <item itemvalue="Python.ex10" />
-        <item itemvalue="Python.ex09" />
-        <item itemvalue="Python.ArrayBidimensional (1)" />
       </list>
     </recent_temporary>
   </component>
