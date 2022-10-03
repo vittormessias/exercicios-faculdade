@@ -11,7 +11,7 @@ import java.lang.Math;
  *
  * @author vitor
  */
-public class ex09 {
+public class ex009 {
     public static void main(String[] args) {
         
         double raio, altura, volume;

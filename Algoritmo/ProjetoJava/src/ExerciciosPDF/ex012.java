@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
  *
  * @author vitor
  */
-public class ex12 {
+public class ex012 {
     public static void main(String[] args) {
         
         double velocidade;

@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
  *
  * @author vitor
  */
-public class ex03 {
+public class ex003 {
     
     public static void main(String[] args) {
         int valor1, valor2, valor3;

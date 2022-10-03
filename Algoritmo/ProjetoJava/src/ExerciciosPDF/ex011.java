@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
  *
  * @author vitor
  */
-public class ex11 {
+public class ex011 {
     public static void main(String[] args) {
         
         //Cada nota de bimestre é composta por 2 notas de provas

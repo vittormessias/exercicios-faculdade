@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
  *
  * @author vitor
  */
-public class ex10 {
+public class ex010 {
     public static void main(String[] args) {
         int base;
           
