@@ -1,5 +1,4 @@
 # Escreva um programa que dado uma string
-listaCaracter = list()
 caracter = str(input('Digite uma palavra: '))
 # crie uma nova string contendo na ordem em que aparecem no string dado,
 palavra = caracter

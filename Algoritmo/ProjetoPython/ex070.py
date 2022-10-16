@@ -9,3 +9,4 @@ while 100 > len(lista):
     if parar in 'N':
         break
 print(lista)
+

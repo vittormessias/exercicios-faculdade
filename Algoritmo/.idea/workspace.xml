@@ -4,10 +4,13 @@
     <list default="true" id="df104a50-5779-42f2-a09e-1cd82bfe02a7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjetoJava/build/built-jar.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoJava/build/built-jar.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoPython/ex089.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoPython/ex089.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetoJava/build/classes/ExerciciosPDF/ex050.class" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoJava/build/classes/ExerciciosPDF/ex050.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetoJava/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoJava/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetoJava/src/ExerciciosPDF/ex050.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoJava/src/ExerciciosPDF/ex050.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetoPython/ex050.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoPython/ex050.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetoPython/ex069.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoPython/ex069.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetoPython/ex070.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoPython/ex070.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjetoPython/ex090.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoPython/ex090.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoPython/ex091.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoPython/ex091.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoPython/ex092.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoPython/ex092.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +45,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.ex050">
-    <configuration name="ex049" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ex092">
+    <configuration name="ex071" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algoritmo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,7 +58,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjetoPython/ex049.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjetoPython/ex071.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -64,7 +67,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex050" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex089" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algoritmo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,7 +79,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjetoPython/ex050.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjetoPython/ex089.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ex050" />
-        <item itemvalue="Python.ex049" />
         <item itemvalue="Python.ex092" />
         <item itemvalue="Python.ex091" />
         <item itemvalue="Python.ex090" />
+        <item itemvalue="Python.ex089" />
+        <item itemvalue="Python.ex071" />
       </list>
     </recent_temporary>
   </component>

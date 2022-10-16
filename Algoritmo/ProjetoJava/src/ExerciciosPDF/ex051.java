@@ -10,22 +10,26 @@ import java.util.Scanner;
  *
  * @author vitor
  */
-public class ex050 {
+public class ex051 {
     public static void main(String[] args) {
         Scanner var = new Scanner(System.in);
-        System.out.print("Digite um valor:");
+        System.out.print("Digite quantos termos devem aparecer: ");
         int valor = var.nextInt();
         
-        for(int c1 = 1 ; c1 <= valor; c1 ++){   
-            for(int c2 = 1 ; c2 <= valor; c2 ++){  
-                
-                if(c1 + c2 == valor){
-                    System.out.println(c1 + " e " + c2);
-                }         
-            }
+        int f0 = 0;
+        int f1 = 1;
+        int fn = 0;
+        
+        int c;
+        
+        System.out.print("F("+valor+") = ");
+        
+        for(c = 0; c <= valor; c ++){
+            f0 = f1;
+            f1 = fn;
+            System.out.print(fn + ", ");
+            fn = f0 + f1;
         }
-    }
+        System.out.print("... ");
+    } 
 }
-
-     
-
