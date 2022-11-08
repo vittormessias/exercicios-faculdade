@@ -1,4 +1,6 @@
-CREATE DATABASE TARREFA09;
+-- DROP DATABASE TAREFA09;
+
+CREATE DATABASE TAREFA09;
 
 USE TAREFA09;
 
@@ -52,11 +54,11 @@ INSERT INTO CURSOS VALUES
 
 --INSERIR 5 REGISTROS EM CADA TABELA
 INSERT INTO ALUNOS VALUES
-(1,'JOAO','BANCO DE DADOS',2,'MANHÃ'),
-(2,'MARIA','INFORMÁTICA',1,'NOITE'),
-(3,'PEDRO','PLÁSTICO',5,'TARDE'),
-(4,'MARIANA','INFORMÁTICA',3,'MANHÃ'),
-(5,'GUILHERME','BANCO DE DADOS',7,'NOITE');
+(1,'JOAO',3,2,'MANHÃ'),
+(2,'MARIA',1,1,'NOITE'),
+(3,'PEDRO',5,5,'TARDE'),
+(4,'MARIANA',1,3,'MANHÃ'),
+(5,'GUILHERME',3,7,'NOITE');
 
 --INSERIR 5 REGISTROS EM CADA TABELA
 INSERT INTO NOTAS VALUES
@@ -67,25 +69,34 @@ INSERT INTO NOTAS VALUES
 (5,2,10,6);
 
 --MOSTRAR NOME, PERÍODO E SÉRIE DOS ALUNOS DE INFORMÁTICA.
-SELECT NOME, PERIODO, SERIE FROM ALUNOS WHERE CURSO IN ('INFORMÁTICA')
+SELECT NOME, PERIODO, SERIE FROM ALUNOS WHERE CURSO = 1;
 
 --MOSTRAR NOME ALUNO, CURSO, NOME DA DISCIPLINA, NOTA1 E NOTA2, DE TODOS OS ALUNOS.
 SELECT ALUNOS.NOME, ALUNOS.CURSO, DISCIPLINAS.NOME, NOTAS.NOTA1, NOTAS.NOTA2 FROM ALUNOS, NOTAS, DISCIPLINAS;
 
 -- Selecionar todas as notas do aluno  (Seu nome);
+SELECT NOME, NOTA1, NOTA2 FROM NOTAS, ALUNOS WHERE NOME = 'JOAO';
 
 -- Selecionar RM, nome e curso de todos os alunos com nota1 superior a 8 na disciplina Matemática;
+SELECT ALUNOS.RM, ALUNOS.NOME, ALUNOS.CURSO, NOTAS.NOTA1, DISCIPLINAS.NOME FROM NOTAS, DISCIPLINAS, ALUNOS WHERE NOTA1 > 8 AND DISCIPL = 4;
 
--- Quantas notas (nota1) inferior a 6,0, em Banco de Dados,  temosno Cadastro de Notas? 
+-- Quantas notas (nota1) inferior a 6,0, em Banco de Dados,  temos no Cadastro de Notas?
+SELECT * FROM NOTAS WHERE NOTA1 < 6 AND DISCIPL = 3;
 
--- Qual a média de Notas (Nota2) na disciplina LPII? 
+-- Qual a média de Notas (Nota2) na disciplina LPII?
+SELECT avg(NOTAS.NOTA2) as 'media' FROM NOTAS WHERE DISCIPL = 2;
 
--- Quantos alunos temos no curso de  Informática? 
+-- Quantos alunos temos no curso de  Informática?
+SELECT COUNT(*) AS 'TOTAL' FROM ALUNOS WHERE CURSO = 1;
 
 -- Quantos alunos temos no curso de  Plástico?
+SELECT COUNT(*) AS 'TOTAL' FROM ALUNOS WHERE CURSO = 5;
 
 -- Selecionar todos os alunos que não possuem Nota1.
+SELECT * FROM ALUNOS, NOTAS WHERE NOTAS.NOTA1 = Null;
 
 -- Selecionar todos os alunos que não possuem Nota2.
+SELECT * FROM ALUNOS, NOTAS WHERE NOTAS.NOTA2 = Null;
 
--- Selecionar todos os alunos que não possuem Nota1 emMatemática.
+-- Selecionar todos os alunos que não possuem Nota1 em Matemática.
+SELECT ALUNOS.NOME, NOTAS.NOTA1 FROM ALUNOS, NOTAS WHERE DISCIPL = 4 AND NOTAS.NOTA1 = Null;
