@@ -46,3 +46,58 @@ int calculoSoma(int B, int D){
     return S;
 }
 
+
+=========================================================
+#include <iostream> // comandos cin e cout
+using namespace std; //diretiva using
+
+// declaração das funções
+int calculoMultiplicação(){
+    int valorA, valorC;
+    cout<<"\nDigite o valor de A: ";
+    cin >> valorA;
+    
+    cout<<"\nDigite o valor de C: ";
+    cin >> valorC;
+    
+    int P;
+    P = valorA * valorC;
+    return P;
+}
+
+int calculoSoma(){
+    int valorB, valorD;
+    
+    cout<<"\nDigite o valor de B: ";
+    cin >> valorB;
+    
+    cout<<"\nDigite o valor de D ";
+    cin >> valorD;
+    
+    int S;
+    S = valorB + valorD;
+    return S;
+}
+
+void exibir(int resultadoMultiplicação, int resultadoSoma){
+
+    cout << "\nMultiplicação: " << resultadoMultiplicação << endl;
+    cout << "\nSoma: " << resultadoSoma << endl;
+    
+    system("sleep 5"); // faz uma pausa para ver o resultado
+}
+
+
+int main(void)
+{
+    setlocale(LC_ALL, "Portuguese"); // configuração de idioma
+    
+    exibir(calculoMultiplicação(), calculoSoma());
+
+return 0;
+}
+
+
+
+
+
