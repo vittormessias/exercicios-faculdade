@@ -1,0 +1,34 @@
+#include "iostream" // comandos cin e cout
+#include "math.h"  // funções matemáticas
+#include "cstdlib" 
+using namespace std; //diretiva using
+
+// 1 variáveis Globais fora de qualquer função
+	double const pes1 = 0.35; //constante global
+	double const pes2 = 0.65; //constante global
+
+	double nota1, nota2, mediaP; //variáveis globais
+
+int main(){
+	setlocale(LC_ALL, "Portuguese"); // configura idioma
+		
+	system("cls"); //comando cls apaga a tela
+	
+	cout << "Digite a nota1: "; // ler a nota 1
+	cin >> nota1;
+
+	cout << "Digite a nota1: "; // ler a nota 2
+	cin >> nota2;
+
+	mediaP = nota1 * pes1 + nota2 * pes2; //calcula a média
+
+	if(media >= 6)
+		cout << "\nAluno Aprovado!";
+	else
+		cou << "\nAluno Reprovado!";
+	
+	//saída de dados, impressão dos resultados
+	cout << "\n O valor da média é: " << mediaP << endl;
+
+	system("pause"); // pausa para mostrar o resultado
+}
